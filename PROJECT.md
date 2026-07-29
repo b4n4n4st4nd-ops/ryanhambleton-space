@@ -4,6 +4,10 @@
 
 Secret values must **never** be written into this file. Document env var *names* and secret *filenames* only.
 
+Current state: [`STATUS.md`](STATUS.md) · Sequencing: [`ROADMAP.md`](ROADMAP.md) · Settled decisions: [`DECISIONS.md`](DECISIONS.md)
+
+> **Next.js 16 caution.** This project's APIs, conventions, and file structure may differ from older knowledge. Read the relevant guide under `node_modules/next/dist/docs/` before writing code, and heed deprecation notices. See [`AGENTS.md`](AGENTS.md).
+
 ---
 
 ## Identity
@@ -25,7 +29,7 @@ Secret values must **never** be written into this file. Document env var *names*
 - TypeScript
 - Tailwind CSS v4
 - Content via JSON/MDX under `content/`
-- Optional Lab Streamlit apps under `streamlit/` (primarily on `feature/transparensea-lab`)
+- Optional Lab Streamlit apps under `streamlit/` (primarily on `feature/transparensea-lab`). Note: `streamlit/model-ops-dashboard/` is present on `main` today, but nothing builds or deploys it — it runs locally only
 
 ## Repository structure
 
@@ -80,7 +84,12 @@ No production deploy / DNS / Vercel project renames without explicit approval.
 
 ## Environment and secrets
 
-- Env var names: document only what appears in `.env.example` when present
+Env var **names** only — values live in `.env.local` and Vercel:
+
+- `NEXT_PUBLIC_SITE_URL` — canonical / OG metadata base
+- `AGENT_DEMO_MODE` — `mock` gives interview-safe hardcoded responses from `/api/agent`
+- `OPENAI_API_KEY` — optional, server-only, for live agent responses; never prefixed `NEXT_PUBLIC_`
+
 - Local secret filenames: `.env.local` (gitignored)
 - Never commit filled env files
 
