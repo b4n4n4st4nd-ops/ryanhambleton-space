@@ -1,0 +1,21 @@
+check,passed,detail
+table_exists:model_versions,True,rows=2
+table_exists:model_runs,True,rows=24
+table_exists:customers,True,rows=2400
+table_exists:decisions,True,rows=24252
+table_exists:monthly_kpis,True,rows=24
+table_exists:feature_influence,True,rows=147
+table_exists:feature_dictionary,True,rows=17
+table_exists:business_exceptions,True,rows=3
+table_exists:statistical_outliers,True,rows=12
+table_exists:generated_insights,True,rows=3
+table_exists:human_insight_reviews,True,rows=3
+table_exists:suggested_actions,True,rows=4
+table_exists:action_measurements,True,rows=4
+run_count_24,True,count=24
+decision_ids_unique,True,decision_id uniqueness
+execution_classes_valid,True,"classes=['Adopted', 'Ignored', 'Modified', 'Outside recommendation', 'Suppression adopted', 'Suppression rejected']"
+no_negative_messages,True,messages_sent >= 0
+conversion_bounds,True,"converted in {0,1}"
+versions_present,True,v1.0 and v1.1
+nir_reconciliation,True,monthly NIR equals decision sum

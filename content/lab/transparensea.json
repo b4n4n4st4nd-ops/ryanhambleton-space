@@ -1,0 +1,8 @@
+{
+  "slug": "transparensea",
+  "title": "Transparensea",
+  "type": "streamlit",
+  "summary": "Model Transparency, Adoption & Impact — A.Typical demonstration connecting production model inputs, recommendations, business adoption, conversion, net revenue, outliers, automated insights, and measured actions.",
+  "embedUrl": "https://share.streamlit.io",
+  "featured": true
+}

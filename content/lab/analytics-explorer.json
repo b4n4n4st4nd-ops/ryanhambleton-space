@@ -1,8 +1,8 @@
 {
   "slug": "analytics-explorer",
-  "title": "Analytics Explorer (Streamlit)",
+  "title": "Transparensea",
   "type": "streamlit",
-  "summary": "Placeholder Streamlit embed — replace embedUrl with your deployed app.",
+  "summary": "An interactive production-model intelligence platform demonstrating how organizations can understand model inputs and outputs, measure business adoption, quantify conversion and net revenue impact, identify statistical outliers, and generate evidence-backed model and business actions.",
   "embedUrl": "https://share.streamlit.io",
-  "featured": false
+  "featured": true
 }

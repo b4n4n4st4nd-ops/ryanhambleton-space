@@ -1,0 +1,9 @@
+{
+  "choice": "Option B \u2014 synthetic fallback",
+  "reason": "Hillstrom was not required as a runtime dependency; synthetic data provides a reproducible offline demo inspired by uplift-marketing structure.",
+  "generated_at": "2026-07-22",
+  "seed": 42,
+  "brand": "A.Typical",
+  "product": "Transparensea",
+  "disclosure": "A.Typical is a fictional brand. Demonstration records are synthetic and modeled after common marketing uplift and production-model workflows."
+}

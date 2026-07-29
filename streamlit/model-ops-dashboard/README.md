@@ -1,28 +1,66 @@
-# Predictive Model Performance & Impact — Streamlit
+# Transparensea
 
-Standalone portfolio demo for executive model-operations reporting.
+**Predictive model AI/ML visualization and reporting companion software**  
+**Model Transparency, Adoption & Impact**
 
-## Run locally
+Streamlit product demonstration for the fictional apparel brand **A.Typical**.
+
+A.Typical is a fictional brand. Demonstration records are synthetic and modeled after common marketing uplift and production-model workflows. Simulated financial results are not real.
+
+## What it shows
+
+The full loop:
+
+`Inputs → Recommendation → Adoption → Outcome → Outlier/Exception → Insight → Action → Measurement → Historical Learning`
+
+Primary campaigns: **New Season Edit**, **Performance Collection**, and **Suppression**, plus Member Access, Re-Engagement, and Follow-Up in execution layers.
+
+## Local run
 
 ```bash
 cd streamlit/model-ops-dashboard
 python -m venv .venv
+# Windows
 .venv\Scripts\activate
+# macOS/Linux
+# source .venv/bin/activate
 pip install -r requirements.txt
+python scripts/build_demo_data.py   # if generated/ is missing
 streamlit run app.py
 ```
 
-## Deploy for portfolio embed
+## Regenerate demo data
 
-1. Push this folder to a public GitHub repo (or monorepo subpath).
-2. Deploy on [Streamlit Community Cloud](https://share.streamlit.io).
-3. Set **Main file path** to `streamlit/model-ops-dashboard/app.py` if using the monorepo root.
-4. Copy the public app URL into `content/lab/*.json` as `embedUrl` for `DemoFrame` iframe embed.
+```bash
+python scripts/build_demo_data.py
+```
+
+Uses a fixed seed (`42`), fits a scikit-learn T-learner, and writes CSVs under `data/generated/`.
+
+## Tests
+
+```bash
+pip install pytest
+pytest tests/ -q
+python -m compileall .
+```
+
+## Deploy (Streamlit Community Cloud)
+
+1. Point the app at this repository.
+2. Set **Main file path** to `streamlit/model-ops-dashboard/app.py`.
+3. Paste the public URL into `content/lab/analytics-explorer.json` and `content/lab/transparensea.json` as `embedUrl`.
 
 ## Customize
 
-- **Data story**: edit `data/fixtures.py`
-- **Visual style**: edit `components/styles.py` and `charts/trend_chart.py`
-- **Layout**: edit `app.py`
+| Area | Location |
+|------|----------|
+| Schema / campaigns / financials | `data/schema.py` |
+| Data generation / model | `scripts/build_demo_data.py` |
+| Views | `views/pages.py` |
+| Visual identity | `components/styles.py` |
+| Lab metadata | `content/lab/*.json` |
 
-All data is fictional (Northwind Analytics). No proprietary terminology.
+## Documentation
+
+See `docs/transparensea/` in the repository root for the product spec, data dictionary, and build report.

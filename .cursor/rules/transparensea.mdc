@@ -1,0 +1,38 @@
+---
+description: Transparensea product context — AI/ML insight companion in this repo
+alwaysApply: true
+---
+
+# Transparensea
+
+**Transparensea** is Ryan's predictive-model AI/ML visualization and reporting companion software: **Model Transparency, Adoption & Impact**.
+
+## Where it lives in this repo
+
+| Area | Path |
+|------|------|
+| Streamlit product | `streamlit/model-ops-dashboard/` |
+| Product docs | `docs/transparensea/` (spec, data dictionary, build report, screenshots) |
+| Lab entries | `content/lab/analytics-explorer.json`, `content/lab/transparensea.json` |
+| Portfolio card | `content/portfolio/analytics-explorer.json` → `/lab/analytics-explorer` |
+
+Canonical product docs: `docs/transparensea/PRODUCT_SPEC.md`. App README: `streamlit/model-ops-dashboard/README.md`.
+
+## Product facts agents must respect
+
+- Demo brand is **A.Typical** (fictional). Data is **synthetic** (seed `42`), not Nike/employer data.
+- Loop: Inputs → Recommendation → Adoption → Outcome → Outlier → Insight → Action → Measurement → Learning.
+- Insights are **deterministic analytics templates**, not LLM-generated.
+- Keep portfolio case study `predictive-model-performance-impact` **separate** from this Lab product demo.
+- Lab `embedUrl` may still be a Streamlit Cloud placeholder until published.
+- Do not revive closed branch `feature/transparensea-demo-v1` / PR #3 as source of truth.
+
+## Local run
+
+```bash
+cd streamlit/model-ops-dashboard
+pip install -r requirements.txt
+python -m streamlit run app.py
+```
+
+A nearly empty stub also existed at `C:\Users\rhamb\Drive\transparensea` (README one-liner only). **This repository is the working product home.**

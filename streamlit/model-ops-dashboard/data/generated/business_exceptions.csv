@@ -1,0 +1,4 @@
+exception_id,timestamp,run_id,scope,campaign_or_segment,metric,expected_range,actual_value,severity,evidence,source,status,related_insight_id,related_action_id
+BEX-001,2025-03-12,RUN-202503,Southeast · Performance Collection,Performance Collection,conversion_rate,Baseline seasonal range,Creative delayed 9 days,Medium,Regional creative QA blocked send window for Performance Collection in Southeast.,Marketing operations log,Resolved,INS-002,
+BEX-002,2025-11-04,RUN-202511,National · New Season Edit,New Season Edit,messages_sent,Planned volume,Inventory constrained in 2 sizes,Medium,Merchandising held back assortment depth for two hero SKUs during Holiday build.,Merchandising,Resolved,,ACT-DATA-001
+BEX-003,2026-01-18,RUN-202601,California · site conversion,All campaigns,conversion_rate,Prior 3-month CA baseline,2h checkout outage,High,Checkout service degradation reduced same-day conversion for targeted sends.,Engineering incident,Resolved,,

@@ -1,16 +1,16 @@
 {
   "slug": "analytics-explorer",
-  "title": "Analytics Explorer (Streamlit)",
+  "title": "Transparensea (Lab Demo)",
   "kind": "case-study",
   "status": "published",
   "primaryPractice": "ai-product-development",
-  "capabilityTags": ["Streamlit Apps", "Interactive Analytics", "AI Prototyping"],
-  "technologyTags": ["Streamlit", "Python", "Plotly"],
+  "capabilityTags": ["Streamlit Apps", "Model Transparency", "Adoption Analytics"],
+  "technologyTags": ["Streamlit", "Python", "Plotly", "scikit-learn"],
   "projectType": "interactive-demo",
   "displayOrder": 20,
   "featured": false,
   "thumbnail": "/images/portfolio/analytics-explorer.svg",
-  "summary": "Streamlit lab demo for interactive analytics exploration — open the live Lab embed to try the workflow.",
+  "summary": "Lab demonstration of Transparensea — Model Transparency, Adoption & Impact — for the fictional A.Typical brand. Opens the live Streamlit embed.",
   "date": "2026-07",
   "links": {
     "live": "/lab/analytics-explorer"

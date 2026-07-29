@@ -1,0 +1,18 @@
+feature,definition,data_type
+tenure_months,Months since first A.Typical purchase or account creation.,numeric
+recency_days,Days since most recent purchase.,numeric
+historical_spend,Trailing twelve-month gross spend.,numeric
+purchase_frequency,Purchases in trailing twelve months.,numeric
+digital_engagement,Normalized site and app engagement score (0–1).,numeric
+email_engagement,Trailing email open/click engagement score (0–1).,numeric
+prior_campaign_response,Response rate to prior eligible campaigns.,numeric
+category_affinity,Affinity toward core apparel assortment.,numeric
+performance_affinity,Affinity toward technical / training products.,numeric
+lifestyle_affinity,Affinity toward lifestyle / editorial assortment.,numeric
+days_since_visit,Days since last website or app visit.,numeric
+followup_eligible,Customer engaged a prior message without converting.,boolean
+primary_channel,Dominant acquisition or engagement channel.,categorical
+loyalty_tier,Current loyalty tier.,categorical
+customer_type,New versus returning customer.,categorical
+region,U.S. commercial region.,categorical
+market_type,"Urban, suburban, or rural market type.",categorical

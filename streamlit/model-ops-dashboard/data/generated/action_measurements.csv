@@ -1,0 +1,5 @@
+measurement_id,action_id,metric,before_value,after_value,before_window,after_window,actual_effect,result_classification,notes
+MEAS-001,ACT-BIZ-001,campaign_choice_adoption,0.6193551385743253,0.8094167336603542,2024-08 to 2025-07,2026-01 to 2026-07,0.19006159508602882,Successful,Business default-plan action; overlaps partially with later model change.
+MEAS-002,ACT-BIZ-001,net_incremental_revenue_monthly_mean,1570.6125000000002,2455.3525,2024-08 to 2025-07,2026-01 to 2026-07,884.7399999999998,Successful,Simulated financial effect; not a claim of real-world revenue.
+MEAS-003,ACT-MDL-001,adopted_conversion_rate,0.0896802592242207,0.10311155246607084,v1.0 runs,v1.1 runs,0.013431293241850148,Successful,Partial identification vs concurrent business process change.
+MEAS-004,ACT-BIZ-002,followup_adoption,0.40788590725510243,0.7001085498940067,2024-08 to 2025-07,2026-03 to 2026-05,0.2922226426389043,Inconclusive,"Adoption moved, but incremental revenue separation was weak."

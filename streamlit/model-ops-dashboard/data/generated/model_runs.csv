@@ -1,0 +1,25 @@
+run_id,run_month,run_date,model_version,phase,status,eligible_customers,records_scored,batch_schedule
+RUN-202408,2024-08,2024-08-01,v1.0,initial,Completed,1600,1000,Monthly · first business Monday
+RUN-202409,2024-09,2024-09-01,v1.0,initial,Completed,1600,1000,Monthly · first business Monday
+RUN-202410,2024-10,2024-10-01,v1.0,initial,Completed,1600,1000,Monthly · first business Monday
+RUN-202411,2024-11,2024-11-01,v1.0,initial,Completed,1600,1000,Monthly · first business Monday
+RUN-202412,2024-12,2024-12-01,v1.0,initial,Completed,1600,1000,Monthly · first business Monday
+RUN-202501,2025-01,2025-01-01,v1.0,initial,Completed,1600,1000,Monthly · first business Monday
+RUN-202502,2025-02,2025-02-01,v1.0,recurring,Completed,1600,1000,Monthly · first business Monday
+RUN-202503,2025-03,2025-03-01,v1.0,recurring,Completed,1600,1000,Monthly · first business Monday
+RUN-202504,2025-04,2025-04-01,v1.0,recurring,Completed,1600,1000,Monthly · first business Monday
+RUN-202505,2025-05,2025-05-01,v1.0,recurring,Completed,1600,1000,Monthly · first business Monday
+RUN-202506,2025-06,2025-06-01,v1.0,recurring,Completed,1600,1000,Monthly · first business Monday
+RUN-202507,2025-07,2025-07-01,v1.0,recurring,Completed,1600,1000,Monthly · first business Monday
+RUN-202508,2025-08,2025-08-01,v1.0,intervention,Completed,1600,1000,Monthly · first business Monday
+RUN-202509,2025-09,2025-09-01,v1.0,intervention,Completed,1600,1000,Monthly · first business Monday
+RUN-202510,2025-10,2025-10-01,v1.0,intervention,Completed,1600,1000,Monthly · first business Monday
+RUN-202511,2025-11,2025-11-01,v1.0,intervention,Completed,1600,1000,Monthly · first business Monday
+RUN-202512,2025-12,2025-12-01,v1.0,improved,Completed,1600,1000,Monthly · first business Monday
+RUN-202601,2026-01,2026-01-01,v1.0,improved,Completed,1600,1000,Monthly · first business Monday
+RUN-202602,2026-02,2026-02-01,v1.1,improved,Completed,1600,1000,Monthly · first business Monday
+RUN-202603,2026-03,2026-03-01,v1.1,improved,Completed,1600,1000,Monthly · first business Monday
+RUN-202604,2026-04,2026-04-01,v1.1,improved,Completed,1600,1000,Monthly · first business Monday
+RUN-202605,2026-05,2026-05-01,v1.1,improved,Completed,1600,1000,Monthly · first business Monday
+RUN-202606,2026-06,2026-06-01,v1.1,improved,Completed,1600,1000,Monthly · first business Monday
+RUN-202607,2026-07,2026-07-01,v1.1,improved,Completed,1600,1000,Monthly · first business Monday

@@ -1,0 +1,148 @@
+model_version,treatment,feature,method,importance,direction_note
+v1.0,New Season Edit,tenure_months,Permutation importance,0.0,Higher absolute importance indicates stronger effect on predicted conversion under this treatment.
+v1.0,New Season Edit,recency_days,Permutation importance,0.0,Higher absolute importance indicates stronger effect on predicted conversion under this treatment.
+v1.0,New Season Edit,historical_spend,Permutation importance,0.0,Higher absolute importance indicates stronger effect on predicted conversion under this treatment.
+v1.0,New Season Edit,purchase_frequency,Permutation importance,0.0,Higher absolute importance indicates stronger effect on predicted conversion under this treatment.
+v1.0,New Season Edit,digital_engagement,Permutation importance,0.0,Higher absolute importance indicates stronger effect on predicted conversion under this treatment.
+v1.0,New Season Edit,email_engagement,Permutation importance,0.0,Higher absolute importance indicates stronger effect on predicted conversion under this treatment.
+v1.0,New Season Edit,prior_campaign_response,Permutation importance,0.0,Higher absolute importance indicates stronger effect on predicted conversion under this treatment.
+v1.0,New Season Edit,category_affinity,Permutation importance,0.0,Higher absolute importance indicates stronger effect on predicted conversion under this treatment.
+v1.0,New Season Edit,performance_affinity,Permutation importance,0.0,Higher absolute importance indicates stronger effect on predicted conversion under this treatment.
+v1.0,New Season Edit,lifestyle_affinity,Permutation importance,0.0,Higher absolute importance indicates stronger effect on predicted conversion under this treatment.
+v1.0,New Season Edit,days_since_visit,Permutation importance,0.0,Higher absolute importance indicates stronger effect on predicted conversion under this treatment.
+v1.0,New Season Edit,primary_channel,Permutation importance,0.0,Higher absolute importance indicates stronger effect on predicted conversion under this treatment.
+v1.0,New Season Edit,loyalty_tier,Permutation importance,0.0,Higher absolute importance indicates stronger effect on predicted conversion under this treatment.
+v1.0,New Season Edit,customer_type,Permutation importance,0.0,Higher absolute importance indicates stronger effect on predicted conversion under this treatment.
+v1.0,New Season Edit,region,Permutation importance,0.0,Higher absolute importance indicates stronger effect on predicted conversion under this treatment.
+v1.0,New Season Edit,market_type,Permutation importance,0.0,Higher absolute importance indicates stronger effect on predicted conversion under this treatment.
+v1.0,New Season Edit,tenure_months,Standardized coefficient,0.08659449440427266,Positive coefficient increases conversion probability under this treatment; negative decreases it. Not causal proof.
+v1.0,New Season Edit,recency_days,Standardized coefficient,-0.07877933197692005,Positive coefficient increases conversion probability under this treatment; negative decreases it. Not causal proof.
+v1.0,New Season Edit,historical_spend,Standardized coefficient,0.08701713045793497,Positive coefficient increases conversion probability under this treatment; negative decreases it. Not causal proof.
+v1.0,New Season Edit,purchase_frequency,Standardized coefficient,-0.11288621932262763,Positive coefficient increases conversion probability under this treatment; negative decreases it. Not causal proof.
+v1.0,New Season Edit,digital_engagement,Standardized coefficient,-0.010638789006801302,Positive coefficient increases conversion probability under this treatment; negative decreases it. Not causal proof.
+v1.0,New Season Edit,email_engagement,Standardized coefficient,0.2885355164247641,Positive coefficient increases conversion probability under this treatment; negative decreases it. Not causal proof.
+v1.0,New Season Edit,prior_campaign_response,Standardized coefficient,0.087842887634673,Positive coefficient increases conversion probability under this treatment; negative decreases it. Not causal proof.
+v1.0,New Season Edit,category_affinity,Standardized coefficient,0.2631385601251457,Positive coefficient increases conversion probability under this treatment; negative decreases it. Not causal proof.
+v1.0,New Season Edit,performance_affinity,Standardized coefficient,0.10855933126717238,Positive coefficient increases conversion probability under this treatment; negative decreases it. Not causal proof.
+v1.0,New Season Edit,lifestyle_affinity,Standardized coefficient,0.11902907656621704,Positive coefficient increases conversion probability under this treatment; negative decreases it. Not causal proof.
+v1.0,New Season Edit,days_since_visit,Standardized coefficient,-0.0682059907619052,Positive coefficient increases conversion probability under this treatment; negative decreases it. Not causal proof.
+v1.1,New Season Edit,tenure_months,Standardized coefficient,0.03356476362247312,Positive coefficient increases conversion probability under this treatment; negative decreases it. Not causal proof.
+v1.1,New Season Edit,tenure_months,Permutation importance,-0.001523915968751296,Higher absolute importance indicates stronger effect on predicted conversion under this treatment.
+v1.1,New Season Edit,recency_days,Standardized coefficient,-0.09209522227704078,Positive coefficient increases conversion probability under this treatment; negative decreases it. Not causal proof.
+v1.1,New Season Edit,recency_days,Permutation importance,0.011141895989773554,Higher absolute importance indicates stronger effect on predicted conversion under this treatment.
+v1.1,New Season Edit,historical_spend,Standardized coefficient,0.03936304454186163,Positive coefficient increases conversion probability under this treatment; negative decreases it. Not causal proof.
+v1.1,New Season Edit,historical_spend,Permutation importance,0.004050946578635404,Higher absolute importance indicates stronger effect on predicted conversion under this treatment.
+v1.1,New Season Edit,purchase_frequency,Standardized coefficient,-0.13409927686673787,Positive coefficient increases conversion probability under this treatment; negative decreases it. Not causal proof.
+v1.1,New Season Edit,purchase_frequency,Permutation importance,0.011233277151463779,Higher absolute importance indicates stronger effect on predicted conversion under this treatment.
+v1.1,New Season Edit,digital_engagement,Standardized coefficient,-0.017874259408813997,Positive coefficient increases conversion probability under this treatment; negative decreases it. Not causal proof.
+v1.1,New Season Edit,digital_engagement,Permutation importance,-0.0014331470225855143,Higher absolute importance indicates stronger effect on predicted conversion under this treatment.
+v1.1,New Season Edit,email_engagement,Standardized coefficient,0.3002455863421281,Positive coefficient increases conversion probability under this treatment; negative decreases it. Not causal proof.
+v1.1,New Season Edit,email_engagement,Permutation importance,0.024015979964190148,Higher absolute importance indicates stronger effect on predicted conversion under this treatment.
+v1.1,New Season Edit,prior_campaign_response,Standardized coefficient,0.07790537728551107,Positive coefficient increases conversion probability under this treatment; negative decreases it. Not causal proof.
+v1.1,New Season Edit,prior_campaign_response,Permutation importance,0.005065498872969748,Higher absolute importance indicates stronger effect on predicted conversion under this treatment.
+v1.1,New Season Edit,category_affinity,Standardized coefficient,0.294323177774623,Positive coefficient increases conversion probability under this treatment; negative decreases it. Not causal proof.
+v1.1,New Season Edit,category_affinity,Permutation importance,0.021636073287835778,Higher absolute importance indicates stronger effect on predicted conversion under this treatment.
+v1.1,New Season Edit,performance_affinity,Standardized coefficient,-0.1660456120745331,Positive coefficient increases conversion probability under this treatment; negative decreases it. Not causal proof.
+v1.1,New Season Edit,performance_affinity,Permutation importance,0.012852499186700143,Higher absolute importance indicates stronger effect on predicted conversion under this treatment.
+v1.1,New Season Edit,lifestyle_affinity,Standardized coefficient,-0.053077581224136784,Positive coefficient increases conversion probability under this treatment; negative decreases it. Not causal proof.
+v1.1,New Season Edit,lifestyle_affinity,Permutation importance,0.008780064268882115,Higher absolute importance indicates stronger effect on predicted conversion under this treatment.
+v1.1,New Season Edit,days_since_visit,Standardized coefficient,0.02497951162391952,Positive coefficient increases conversion probability under this treatment; negative decreases it. Not causal proof.
+v1.1,New Season Edit,days_since_visit,Permutation importance,0.0033947680010637644,Higher absolute importance indicates stronger effect on predicted conversion under this treatment.
+v1.0,Performance Collection,tenure_months,Permutation importance,0.0017035775127768327,Higher absolute importance indicates stronger effect on predicted conversion under this treatment.
+v1.0,Performance Collection,recency_days,Permutation importance,0.0008517887563884163,Higher absolute importance indicates stronger effect on predicted conversion under this treatment.
+v1.0,Performance Collection,historical_spend,Permutation importance,0.0017035775127768327,Higher absolute importance indicates stronger effect on predicted conversion under this treatment.
+v1.0,Performance Collection,purchase_frequency,Permutation importance,0.0017035775127768327,Higher absolute importance indicates stronger effect on predicted conversion under this treatment.
+v1.0,Performance Collection,digital_engagement,Permutation importance,0.0034071550255536653,Higher absolute importance indicates stronger effect on predicted conversion under this treatment.
+v1.0,Performance Collection,email_engagement,Permutation importance,0.0034071550255536653,Higher absolute importance indicates stronger effect on predicted conversion under this treatment.
+v1.0,Performance Collection,prior_campaign_response,Permutation importance,0.0,Higher absolute importance indicates stronger effect on predicted conversion under this treatment.
+v1.0,Performance Collection,category_affinity,Permutation importance,0.0017035775127768327,Higher absolute importance indicates stronger effect on predicted conversion under this treatment.
+v1.0,Performance Collection,performance_affinity,Permutation importance,0.0,Higher absolute importance indicates stronger effect on predicted conversion under this treatment.
+v1.0,Performance Collection,lifestyle_affinity,Permutation importance,0.0008517887563884163,Higher absolute importance indicates stronger effect on predicted conversion under this treatment.
+v1.0,Performance Collection,days_since_visit,Permutation importance,0.002555366269165249,Higher absolute importance indicates stronger effect on predicted conversion under this treatment.
+v1.0,Performance Collection,primary_channel,Permutation importance,0.0034071550255536653,Higher absolute importance indicates stronger effect on predicted conversion under this treatment.
+v1.0,Performance Collection,loyalty_tier,Permutation importance,0.0017035775127768327,Higher absolute importance indicates stronger effect on predicted conversion under this treatment.
+v1.0,Performance Collection,customer_type,Permutation importance,-0.0008517887563884163,Higher absolute importance indicates stronger effect on predicted conversion under this treatment.
+v1.0,Performance Collection,region,Permutation importance,0.0,Higher absolute importance indicates stronger effect on predicted conversion under this treatment.
+v1.0,Performance Collection,market_type,Permutation importance,0.002555366269165249,Higher absolute importance indicates stronger effect on predicted conversion under this treatment.
+v1.0,Performance Collection,tenure_months,Standardized coefficient,0.2478618140627539,Positive coefficient increases conversion probability under this treatment; negative decreases it. Not causal proof.
+v1.0,Performance Collection,recency_days,Standardized coefficient,-0.20518025965274106,Positive coefficient increases conversion probability under this treatment; negative decreases it. Not causal proof.
+v1.0,Performance Collection,historical_spend,Standardized coefficient,-0.11322528121362872,Positive coefficient increases conversion probability under this treatment; negative decreases it. Not causal proof.
+v1.0,Performance Collection,purchase_frequency,Standardized coefficient,0.18957318983996507,Positive coefficient increases conversion probability under this treatment; negative decreases it. Not causal proof.
+v1.0,Performance Collection,digital_engagement,Standardized coefficient,-0.05640607623328659,Positive coefficient increases conversion probability under this treatment; negative decreases it. Not causal proof.
+v1.0,Performance Collection,email_engagement,Standardized coefficient,0.3576146429869234,Positive coefficient increases conversion probability under this treatment; negative decreases it. Not causal proof.
+v1.0,Performance Collection,prior_campaign_response,Standardized coefficient,-0.0006487904511113091,Positive coefficient increases conversion probability under this treatment; negative decreases it. Not causal proof.
+v1.0,Performance Collection,category_affinity,Standardized coefficient,0.07135146620369553,Positive coefficient increases conversion probability under this treatment; negative decreases it. Not causal proof.
+v1.0,Performance Collection,performance_affinity,Standardized coefficient,0.06845299845560855,Positive coefficient increases conversion probability under this treatment; negative decreases it. Not causal proof.
+v1.0,Performance Collection,lifestyle_affinity,Standardized coefficient,0.09657222620401493,Positive coefficient increases conversion probability under this treatment; negative decreases it. Not causal proof.
+v1.0,Performance Collection,days_since_visit,Standardized coefficient,0.10873768477995731,Positive coefficient increases conversion probability under this treatment; negative decreases it. Not causal proof.
+v1.1,Performance Collection,tenure_months,Standardized coefficient,0.21994648434921907,Positive coefficient increases conversion probability under this treatment; negative decreases it. Not causal proof.
+v1.1,Performance Collection,tenure_months,Permutation importance,0.016977635124411226,Higher absolute importance indicates stronger effect on predicted conversion under this treatment.
+v1.1,Performance Collection,recency_days,Standardized coefficient,-0.1014083657001764,Positive coefficient increases conversion probability under this treatment; negative decreases it. Not causal proof.
+v1.1,Performance Collection,recency_days,Permutation importance,0.008681939603485496,Higher absolute importance indicates stronger effect on predicted conversion under this treatment.
+v1.1,Performance Collection,historical_spend,Standardized coefficient,-0.08489421126243143,Positive coefficient increases conversion probability under this treatment; negative decreases it. Not causal proof.
+v1.1,Performance Collection,historical_spend,Permutation importance,0.00575539468099696,Higher absolute importance indicates stronger effect on predicted conversion under this treatment.
+v1.1,Performance Collection,purchase_frequency,Standardized coefficient,0.12447363372695645,Positive coefficient increases conversion probability under this treatment; negative decreases it. Not causal proof.
+v1.1,Performance Collection,purchase_frequency,Permutation importance,0.011193460879466172,Higher absolute importance indicates stronger effect on predicted conversion under this treatment.
+v1.1,Performance Collection,digital_engagement,Standardized coefficient,0.057416030715020994,Positive coefficient increases conversion probability under this treatment; negative decreases it. Not causal proof.
+v1.1,Performance Collection,digital_engagement,Permutation importance,0.0019585156821541167,Higher absolute importance indicates stronger effect on predicted conversion under this treatment.
+v1.1,Performance Collection,email_engagement,Standardized coefficient,0.3597733313470644,Positive coefficient increases conversion probability under this treatment; negative decreases it. Not causal proof.
+v1.1,Performance Collection,email_engagement,Permutation importance,0.030318519977483485,Higher absolute importance indicates stronger effect on predicted conversion under this treatment.
+v1.1,Performance Collection,prior_campaign_response,Standardized coefficient,0.15241248000813915,Positive coefficient increases conversion probability under this treatment; negative decreases it. Not causal proof.
+v1.1,Performance Collection,prior_campaign_response,Permutation importance,0.00896036335459793,Higher absolute importance indicates stronger effect on predicted conversion under this treatment.
+v1.1,Performance Collection,category_affinity,Standardized coefficient,0.06294653470485513,Positive coefficient increases conversion probability under this treatment; negative decreases it. Not causal proof.
+v1.1,Performance Collection,category_affinity,Permutation importance,0.004287662916348455,Higher absolute importance indicates stronger effect on predicted conversion under this treatment.
+v1.1,Performance Collection,performance_affinity,Standardized coefficient,0.4398249536373332,Positive coefficient increases conversion probability under this treatment; negative decreases it. Not causal proof.
+v1.1,Performance Collection,performance_affinity,Permutation importance,0.037229845585546574,Higher absolute importance indicates stronger effect on predicted conversion under this treatment.
+v1.1,Performance Collection,lifestyle_affinity,Standardized coefficient,-0.01939089408652368,Positive coefficient increases conversion probability under this treatment; negative decreases it. Not causal proof.
+v1.1,Performance Collection,lifestyle_affinity,Permutation importance,0.005010842495135948,Higher absolute importance indicates stronger effect on predicted conversion under this treatment.
+v1.1,Performance Collection,days_since_visit,Standardized coefficient,-0.03389133948679029,Positive coefficient increases conversion probability under this treatment; negative decreases it. Not causal proof.
+v1.1,Performance Collection,days_since_visit,Permutation importance,-0.0019603038537262456,Higher absolute importance indicates stronger effect on predicted conversion under this treatment.
+v1.0,Suppression,tenure_months,Permutation importance,0.0,Higher absolute importance indicates stronger effect on predicted conversion under this treatment.
+v1.0,Suppression,recency_days,Permutation importance,0.0,Higher absolute importance indicates stronger effect on predicted conversion under this treatment.
+v1.0,Suppression,historical_spend,Permutation importance,0.0,Higher absolute importance indicates stronger effect on predicted conversion under this treatment.
+v1.0,Suppression,purchase_frequency,Permutation importance,0.0,Higher absolute importance indicates stronger effect on predicted conversion under this treatment.
+v1.0,Suppression,digital_engagement,Permutation importance,0.0,Higher absolute importance indicates stronger effect on predicted conversion under this treatment.
+v1.0,Suppression,email_engagement,Permutation importance,0.0,Higher absolute importance indicates stronger effect on predicted conversion under this treatment.
+v1.0,Suppression,prior_campaign_response,Permutation importance,0.0,Higher absolute importance indicates stronger effect on predicted conversion under this treatment.
+v1.0,Suppression,category_affinity,Permutation importance,0.0,Higher absolute importance indicates stronger effect on predicted conversion under this treatment.
+v1.0,Suppression,performance_affinity,Permutation importance,0.0,Higher absolute importance indicates stronger effect on predicted conversion under this treatment.
+v1.0,Suppression,lifestyle_affinity,Permutation importance,0.0,Higher absolute importance indicates stronger effect on predicted conversion under this treatment.
+v1.0,Suppression,days_since_visit,Permutation importance,0.0,Higher absolute importance indicates stronger effect on predicted conversion under this treatment.
+v1.0,Suppression,primary_channel,Permutation importance,0.0,Higher absolute importance indicates stronger effect on predicted conversion under this treatment.
+v1.0,Suppression,loyalty_tier,Permutation importance,0.0,Higher absolute importance indicates stronger effect on predicted conversion under this treatment.
+v1.0,Suppression,customer_type,Permutation importance,0.0,Higher absolute importance indicates stronger effect on predicted conversion under this treatment.
+v1.0,Suppression,region,Permutation importance,0.0,Higher absolute importance indicates stronger effect on predicted conversion under this treatment.
+v1.0,Suppression,market_type,Permutation importance,0.0,Higher absolute importance indicates stronger effect on predicted conversion under this treatment.
+v1.0,Suppression,tenure_months,Standardized coefficient,0.15799975093722188,Positive coefficient increases conversion probability under this treatment; negative decreases it. Not causal proof.
+v1.0,Suppression,recency_days,Standardized coefficient,-0.040538966299280464,Positive coefficient increases conversion probability under this treatment; negative decreases it. Not causal proof.
+v1.0,Suppression,historical_spend,Standardized coefficient,0.1547324060253066,Positive coefficient increases conversion probability under this treatment; negative decreases it. Not causal proof.
+v1.0,Suppression,purchase_frequency,Standardized coefficient,-0.07313660299708595,Positive coefficient increases conversion probability under this treatment; negative decreases it. Not causal proof.
+v1.0,Suppression,digital_engagement,Standardized coefficient,0.20920477699308596,Positive coefficient increases conversion probability under this treatment; negative decreases it. Not causal proof.
+v1.0,Suppression,email_engagement,Standardized coefficient,0.23357359709598405,Positive coefficient increases conversion probability under this treatment; negative decreases it. Not causal proof.
+v1.0,Suppression,prior_campaign_response,Standardized coefficient,0.043996784801637365,Positive coefficient increases conversion probability under this treatment; negative decreases it. Not causal proof.
+v1.0,Suppression,category_affinity,Standardized coefficient,-0.3366281108665012,Positive coefficient increases conversion probability under this treatment; negative decreases it. Not causal proof.
+v1.0,Suppression,performance_affinity,Standardized coefficient,0.1052211471975371,Positive coefficient increases conversion probability under this treatment; negative decreases it. Not causal proof.
+v1.0,Suppression,lifestyle_affinity,Standardized coefficient,-0.24840912163637593,Positive coefficient increases conversion probability under this treatment; negative decreases it. Not causal proof.
+v1.0,Suppression,days_since_visit,Standardized coefficient,-0.06666163415012084,Positive coefficient increases conversion probability under this treatment; negative decreases it. Not causal proof.
+v1.1,Suppression,tenure_months,Standardized coefficient,0.15799975093722188,Positive coefficient increases conversion probability under this treatment; negative decreases it. Not causal proof.
+v1.1,Suppression,tenure_months,Permutation importance,0.010096022118954207,Higher absolute importance indicates stronger effect on predicted conversion under this treatment.
+v1.1,Suppression,recency_days,Standardized coefficient,-0.040538966299280464,Positive coefficient increases conversion probability under this treatment; negative decreases it. Not causal proof.
+v1.1,Suppression,recency_days,Permutation importance,0.003109194008660532,Higher absolute importance indicates stronger effect on predicted conversion under this treatment.
+v1.1,Suppression,historical_spend,Standardized coefficient,0.1547324060253066,Positive coefficient increases conversion probability under this treatment; negative decreases it. Not causal proof.
+v1.1,Suppression,historical_spend,Permutation importance,0.013665292936119443,Higher absolute importance indicates stronger effect on predicted conversion under this treatment.
+v1.1,Suppression,purchase_frequency,Standardized coefficient,-0.07313660299708595,Positive coefficient increases conversion probability under this treatment; negative decreases it. Not causal proof.
+v1.1,Suppression,purchase_frequency,Permutation importance,0.004477209410170147,Higher absolute importance indicates stronger effect on predicted conversion under this treatment.
+v1.1,Suppression,digital_engagement,Standardized coefficient,0.20920477699308596,Positive coefficient increases conversion probability under this treatment; negative decreases it. Not causal proof.
+v1.1,Suppression,digital_engagement,Permutation importance,0.016533031815787,Higher absolute importance indicates stronger effect on predicted conversion under this treatment.
+v1.1,Suppression,email_engagement,Standardized coefficient,0.23357359709598405,Positive coefficient increases conversion probability under this treatment; negative decreases it. Not causal proof.
+v1.1,Suppression,email_engagement,Permutation importance,0.01861011527219317,Higher absolute importance indicates stronger effect on predicted conversion under this treatment.
+v1.1,Suppression,prior_campaign_response,Standardized coefficient,0.043996784801637365,Positive coefficient increases conversion probability under this treatment; negative decreases it. Not causal proof.
+v1.1,Suppression,prior_campaign_response,Permutation importance,0.0032395862605519464,Higher absolute importance indicates stronger effect on predicted conversion under this treatment.
+v1.1,Suppression,category_affinity,Standardized coefficient,-0.3366281108665012,Positive coefficient increases conversion probability under this treatment; negative decreases it. Not causal proof.
+v1.1,Suppression,category_affinity,Permutation importance,0.026757323423437885,Higher absolute importance indicates stronger effect on predicted conversion under this treatment.
+v1.1,Suppression,performance_affinity,Standardized coefficient,0.1052211471975371,Positive coefficient increases conversion probability under this treatment; negative decreases it. Not causal proof.
+v1.1,Suppression,performance_affinity,Permutation importance,0.00838218585409594,Higher absolute importance indicates stronger effect on predicted conversion under this treatment.
+v1.1,Suppression,lifestyle_affinity,Standardized coefficient,-0.24840912163637593,Positive coefficient increases conversion probability under this treatment; negative decreases it. Not causal proof.
+v1.1,Suppression,lifestyle_affinity,Permutation importance,0.023079957710467943,Higher absolute importance indicates stronger effect on predicted conversion under this treatment.
+v1.1,Suppression,days_since_visit,Standardized coefficient,-0.06666163415012084,Positive coefficient increases conversion probability under this treatment; negative decreases it. Not causal proof.
+v1.1,Suppression,days_since_visit,Permutation importance,0.00487146103832913,Higher absolute importance indicates stronger effect on predicted conversion under this treatment.
