@@ -2,13 +2,20 @@
 
 Personal portfolio — Next.js 16, React 19, Tailwind CSS v4.
 
+**Canonical local path:** `C:\Users\rhamb\Drive\Ry_Studio\01_Development\Projects\ryanhambleton-space`  
+**Identity:** [`PROJECT.md`](PROJECT.md)
+
+Do not develop from `Drive\Cursor\ryanhambleton-space` or archives.
+
 ## New here? Start learning
 
 **→ [docs/START_HERE.md](docs/START_HERE.md)** — your step-by-step learning path from domain to live site.
 
 Quick start:
 
-```bash
+```powershell
+cd "C:\Users\rhamb\Drive\Ry_Studio\01_Development\Projects\ryanhambleton-space"
+npm ci
 npm run dev
 ```
 

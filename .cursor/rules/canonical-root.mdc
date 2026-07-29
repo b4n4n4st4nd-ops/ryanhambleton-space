@@ -1,0 +1,39 @@
+---
+description: Enforce canonical ryanhambleton.space root and remote before any work
+alwaysApply: true
+---
+
+# Canonical root — ryanhambleton.space
+
+You are working in the **ryanhambleton.space** product repository.
+
+## Canonical identity (must match PROJECT.md)
+
+- Canonical local root: `C:\Users\rhamb\Drive\Ry_Studio\01_Development\Projects\ryanhambleton-space`
+- Canonical GitHub remote: `https://github.com/b4n4n4st4nd-ops/ryanhambleton-space.git`
+- Expected default branch: `main`
+- Expected server ports (if applicable): `3000` (Next.js); Streamlit often `8501` when used
+
+## Required preflight
+
+Before coding, dependency installation, development-server startup, tests, commits, pushes, deployment, or migrations, run and report:
+
+```powershell
+Get-Location
+git rev-parse --show-toplevel
+git remote -v
+git branch --show-current
+git status --short
+```
+
+If the root or remote does **not** match, **stop immediately**.
+
+Do not silently continue in `Drive\Cursor\ryanhambleton-space`, Apps, or archives.
+
+## Before starting a development server
+
+Report cwd, command, expected port(s), and whether those ports appear in use. Do not automatically kill unrelated processes.
+
+## Secrets
+
+Never print or commit `.env.local` values.
