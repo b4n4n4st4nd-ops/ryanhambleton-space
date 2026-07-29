@@ -1,5 +1,6 @@
 # Transparensea
 
+**Predictive model AI/ML visualization and reporting companion software**  
 **Model Transparency, Adoption & Impact**
 
 Streamlit product demonstration for the fictional apparel brand **A.Typical**.

@@ -60,6 +60,16 @@ Browser (AgentChat) → POST /api/agent → OpenAI gpt-4o-mini OR mock mode
 
 Deploy app to Streamlit Community Cloud → set `embedUrl` in `content/lab/*.json` → `/lab/[slug]` renders `DemoFrame` iframe.
 
+### Transparensea
+
+Flagship Lab product: **Transparensea** (Model Transparency, Adoption & Impact) — predictive-model visualization and reporting companion.
+
+- App: `streamlit/model-ops-dashboard/`
+- Docs: [`docs/transparensea/`](./transparensea/)
+- Lab JSON: `content/lab/analytics-explorer.json`, `content/lab/transparensea.json`
+- Demo brand: fictional **A.Typical** with synthetic data (not employer data)
+- Separate from portfolio case study `predictive-model-performance-impact`
+
 ## Deployment
 
 GitHub → Vercel → `ryanhambleton.space`. See [deployment.md](./deployment.md).

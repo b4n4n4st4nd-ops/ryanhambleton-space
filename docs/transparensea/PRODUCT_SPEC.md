@@ -1,13 +1,15 @@
 # Transparensea — Product Specification
 
 **Product:** Transparensea  
+**One-liner:** Predictive model AI/ML visualization and reporting companion software  
 **Descriptor:** Model Transparency, Adoption & Impact  
 **Demonstration brand:** A.Typical  
-**Surface:** Lab Streamlit experience (`streamlit/model-ops-dashboard`)
+**Surface:** Lab Streamlit experience (`streamlit/model-ops-dashboard`)  
+**Site presentation:** Lab embeds + portfolio card (`analytics-explorer`); product home in this repo under `docs/transparensea/`
 
 ## Purpose
 
-Transparensea connects production model inputs, outputs, business adoption, and downstream outcomes so model product owners and business stakeholders can close the gap between building a model and realizing business value.
+Transparensea is a companion layer for production predictive models. It connects model inputs, outputs, business adoption, and downstream outcomes so model product owners and business stakeholders can close the gap between building a model and realizing business value — through transparency, adoption measurement, impact analytics, and an insight → action → measurement loop.
 
 ## Demonstration use case
 

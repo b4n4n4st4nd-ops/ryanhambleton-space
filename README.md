@@ -22,6 +22,18 @@ See [content/EDIT_THESE_FIRST.md](content/EDIT_THESE_FIRST.md) — start with `c
 
 When ready to go live: [docs/module-9-deploy.md](docs/module-9-deploy.md)
 
+## Transparensea (Lab product)
+
+**Transparensea** — Model Transparency, Adoption & Impact — is the AI/ML insight companion demo in this repo.
+
+| Item | Location |
+|------|----------|
+| Streamlit app | [`streamlit/model-ops-dashboard/`](streamlit/model-ops-dashboard/) |
+| Product docs | [`docs/transparensea/`](docs/transparensea/) |
+| Lab pages | `/lab/analytics-explorer`, `/lab/transparensea` |
+
+Local run: `cd streamlit/model-ops-dashboard && streamlit run app.py`
+
 ## Project structure
 
 | Folder | Purpose |
@@ -29,9 +41,10 @@ When ready to go live: [docs/module-9-deploy.md](docs/module-9-deploy.md)
 | `app/` | Pages and routes |
 | `components/` | Reusable UI |
 | `content/` | Your JSON + MDX content |
-| `docs/` | Learning modules and architecture |
+| `docs/` | Learning modules, architecture, Transparensea product docs |
 | `lib/` | Content loaders and helpers |
 | `public/` | Images, resume PDF |
+| `streamlit/` | Transparensea and other Streamlit demos |
 
 ## Commands
 
